@@ -1,3 +1,8 @@
+/* object is a collection of properties and methods. 
+It is a fundamental data type in JavaScript and is used 
+to store and manipulate data. Objects can be created 
+using object literals, constructors, or classes. */
+
 // object declaration
 let car = {
   brand: "BMW",
@@ -12,11 +17,13 @@ let car = {
   },
 };
 
-let newCar = { ...car };
+
 console.log(car);
 
+
+let newCar = { ...car };
 newCar.year = 2016;
 
 let modifiedCar = JSON.stringify(newCar);
-console.log(newCar);
+// console.log(newCar);
 console.log(modifiedCar);
