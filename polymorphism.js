@@ -22,5 +22,12 @@ let person1 = new person();
 let person2 = new student();
 let person3 = new teamLeader();
 
-person1.details();
-person2.details();
+// person1.details();
+// person2.details();
+
+
+const data = [person1, person2, person3];
+
+data.map((person) => {
+  person.details();
+});
