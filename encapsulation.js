@@ -1,3 +1,7 @@
+/* Encapsulation is the OOP concept of combining data and methods 
+inside a class and restricting direct access to internal data 
+ to protect it from unintended modification. */
+
 class car {
   constructor(name, series, color) {
     this.name = name;

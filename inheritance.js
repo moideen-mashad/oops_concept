@@ -1,3 +1,6 @@
+/* Inheritance is an OOP concept where a child 
+ class acquires the properties and methods of a parent class. */
+
 // Inheritance example
 class person {
   constructor(name) {

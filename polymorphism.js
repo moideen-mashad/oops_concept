@@ -1,3 +1,6 @@
+/* Polymorphism is an OOP concept where the same method or interface behaves 
+differently depending on the object that calls it. */
+
 class person {
   details() {
     console.log(` is from India`);
@@ -17,6 +20,7 @@ class teamLeader extends person {
 
 let person1 = new person();
 let person2 = new student();
+let person3 = new teamLeader();
 
 person1.details();
 person2.details();
